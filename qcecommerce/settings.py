@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-9u1028n@(@ks)5-4r0*tog+oj()a1v5cyi^bj8d&e78#4wkamt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['shopping-w.herokuapp.com', 'http://127.0.0.1:8000/']
+ALLOWED_HOSTS = ['shopping-w.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['http://shopping-w.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['http://shopping-w.herokuapp.com','http://127.0.0.1:8000/']
 
 
 
