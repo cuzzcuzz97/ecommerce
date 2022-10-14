@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['shopping-w.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://shopping-w.herokuapp.com/']
 
 
 
